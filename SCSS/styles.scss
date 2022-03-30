@@ -1,0 +1,34 @@
+
+@import "variables";
+@import "globals";
+@import "header";
+@import "features";
+@import "creations";
+@import "footer";
+
+
+
+footer{
+    background-color: $Black;
+    padding: .3rem;
+    border-top: 1px solid $Very-Dark-Gray;
+
+    .attribution{
+        display: block;
+        color: $White;
+        font-size: .8rem;
+        text-align: center;
+        a{
+            color: $Very-Dark-Gray;
+            transition: .3s ease-in-out;
+            &:hover{
+                display: inline-block;
+                transform: translateY(-2px);
+            }
+        }
+    }
+}
+
+
+
+

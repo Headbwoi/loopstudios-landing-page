@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <title>Frontend Mentor | Loopstudios landing page</title>
+  </head>
+  <body>
+    <main>
+      <!-- header.hero section start -->
+      <section class="header">
+        <div class="container">
+          <nav class="nav flex flex-jc-sb flex-ai-c">
+            <a href="#" class="logo"
+              ><img src="images/logo.svg" alt="logo"
+            /></a>
+
+            <div class="nav-links hide-for-mobile">
+              <span><a href="#">About</a></span>
+              <span><a href="#">Careers</a></span>
+              <span><a href="#">Events</a></span>
+              <span><a href="#">Products</a></span>
+              <span><a href="#">Support</a></span>
+            </div>
+
+            <div class="nav-toggle-open hide-for-desktop">
+              <img
+                src="images/icon-hamburger.svg"
+                alt="icon-hamburger"
+                id="open"
+              />
+            </div>
+          </nav>
+
+          <div class="nav-menu hide-for-desktop" id="nav_menu">
+            <div class="heading flex flex-jc-sb flex-ai-c">
+              <img src="images/logo.svg" alt="logo" />
+              <img src="images/icon-close.svg" alt="icon-close" id="close" />
+            </div>
+
+            <div class="links">
+              <span><a href="#">About</a></span>
+              <span><a href="#">Careers</a></span>
+              <span><a href="#">Events</a></span>
+              <span><a href="#">Products</a></span>
+              <span><a href="#">Support</a></span>
+            </div>
+          </div>
+
+          <div class="text flex flex-ai-c">
+            <p>Immersive experiences that deliver</p>
+          </div>
+        </div>
+      </section>
+      <!-- header/hero section start -->
+
+      <section class="features">
+        <div class="container">
+          <div class="features-image">
+            <img
+              src="./images/mobile/image-interactive.jpg"
+              alt="interactive"
+              class="hide-for-desktop desktop"
+            />
+            <img
+              src="./images/desktop/image-interactive.jpg"
+              alt="interactive"
+              class="hide-for-mobile mobile"
+            />
+          </div>
+
+          <div class="features-text">
+            <h1 class="head-tag">The leader in interactive VR</h1>
+            <p>
+              Founded in 2011, Loopstudios has been producing world-class
+              virtual reality projects for some of the best companies around the
+              globe. Our award-winning creations have transformed businesses
+              through digital experiences that bind to their brand.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="creations">
+        <div class="container">
+          <div class="heading">
+            <h2 class="head-tag">Our creations</h2>
+
+            <a href="/" class="btn hide-for-mobile">See all</a>
+          </div>
+
+          <div class="creations-images">
+            <div class="image-1 bg-gen">
+              <span class="img-info">Deep earth</span>
+            </div>
+            <div class="image-2 bg-gen">
+              <span class="img-info">Night arcade</span>
+            </div>
+            <div class="image-3 bg-gen">
+              <span class="img-info">Soccer team VR</span>
+            </div>
+            <div class="image-4 bg-gen">
+              <span class="img-info">The grid</span>
+            </div>
+            <div class="image-5 bg-gen">
+              <span class="img-info">From up above VR</span>
+            </div>
+            <div class="image-6 bg-gen">
+              <span class="img-info">Pocket borealis</span>
+            </div>
+            <div class="image-7 bg-gen">
+              <span class="img-info">The curiosity</span>
+            </div>
+            <div class="image-8 bg-gen">
+              <span class="img-info">Make it fisheye</span>
+            </div>
+          </div>
+
+          <div class="cta flex flex-jc-c">
+            <a href="/" class="btn hide-for-desktop">See all</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer">
+        <div class="container">
+          <div class="footer-icons">
+            <div class="icon">
+              <img src="images/logo.svg" alt="logo" />
+            </div>
+            <div class="links">
+              <span><a href="#">About</a></span>
+              <span><a href="#">Careers</a></span>
+              <span><a href="#">Events</a></span>
+              <span><a href="#">Products</a></span>
+              <span><a href="#">Support</a></span>
+            </div>
+          </div>
+
+          <div class="footer-info">
+            <div class="social">
+              <span>
+                <img src="images/icon-facebook.svg" alt="icon-facebook" />
+              </span>
+              <span>
+                <img src="images/icon-twitter.svg" alt="icon-twitter" />
+              </span>
+              <span>
+                <img src="images/icon-pinterest.svg" alt="icon-pinterest" />
+              </span>
+              <span>
+                <img src="images/icon-instagram.svg" alt="icon-instagram" />
+              </span>
+            </div>
+            <div class="text">
+              <p>© 2021 Loopstudios. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Headbwoi</a>.
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
