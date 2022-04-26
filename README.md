@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL](https://github.com/Headbwoi/loopstudios-landing-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click Here](https://headbwoi.github.io/loopstudios-landing-page/)
 
 ## My process
 
